@@ -27,6 +27,8 @@ Placement Management System is a web based application to manage all the activit
 
 <hr />  
 
+**Demo**:<br>
+https://bent-wheel.000webhostapp.com/ 
 
 **Requirements**<br> 
 --> Xampp Server
