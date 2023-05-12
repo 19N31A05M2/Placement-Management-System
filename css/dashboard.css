@@ -1,0 +1,231 @@
+
+.boxtext{
+	font-size:32px;
+	
+}
+#totalstudents,#selected,#backlogs,#companys{
+	font-size:36px;
+	text-align:right;
+}
+.text2{
+	font-size:27px;
+	
+}
+
+/*cards Style*/
+.overview-item {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 30px;
+	padding-bottom: 0;
+	-webkit-box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%);
+	-moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,.1);
+	box-shadow: 0 2px 5px 0 rgb(0 0 0 / 10%);
+	margin-bottom: 40px;
+}
+.overview-item{
+	padding-left:15px;
+	padding-right:15px
+}
+.overview-item--c1{
+	background-image:-moz-linear-gradient(90deg,#3f5efb 0%,#fc466b 100%);
+	background-image:-webkit-linear-gradient(90deg,#3f5efb 0%,#fc466b 100%);
+	background-image:-ms-linear-gradient(90deg,#3f5efb 0%,#fc466b 100%)
+}
+.overview-item--c2{
+	background-image:-moz-linear-gradient(90deg,#11998e 0%,#38ef7d 100%);
+	background-image:-webkit-linear-gradient(90deg,#11998e 0%,#38ef7d 100%);
+	background-image:-ms-linear-gradient(90deg,#11998e 0%,#38ef7d 100%)
+}
+.overview-item--c3{
+	background-image:-moz-linear-gradient(90deg,#ee0979 0%,#ff6a00 100%);
+	background-image:-webkit-linear-gradient(90deg,#ee0979 0%,#ff6a00 100%);
+	background-image:-ms-linear-gradient(90deg,#ee0979 0%,#ff6a00 100%)
+}
+.overview-item--c4{
+	background-image:-moz-linear-gradient(90deg,#45b649 0%,#dce35b 100%);
+	background-image:-webkit-linear-gradient(90deg,#45b649 0%,#dce35b 100%);
+	background-image:-ms-linear-gradient(90deg,#45b649 0%,#dce35b 100%)
+}
+			
+.overview-box .icon{
+	display:inline-block;
+	vertical-align:top;
+	margin-right:15px
+	}
+.overview-box .icon i{
+	font-size:60px;
+	color:#fff
+}
+@media(min-width:992px) and (max-width:1199px){
+	.overview-box .icon{
+		margin-right:3px
+	}
+	.overview-box .icon i{
+		font-size:30px
+	}
+	#passoutyears{
+		width:60px;
+	}
+	.recent-report__chart{
+		padding:0px;
+	}
+}
+@media(max-width:991px){
+	.overview-box .icon{
+		font-size:46px
+	}
+	
+	
+}
+	
+.au-card{
+	-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
+	-moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
+	box-shadow:0 2px 5px 0 rgba(0,0,0,.1);
+	padding:5px;
+padding-right:15px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+background:#fff;
+overflow:hidden;
+margin-bottom:60px;
+}
+.au-card--border{
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+border-radius:3px
+}
+.au-card--border .au-card-title{
+	-webkit-border-top-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+border-top-left-radius:3px;
+-webkit-border-top-right-radius:3px;
+-moz-border-radius-topright:3px;
+border-top-right-radius:3px
+}
+
+.recent-report__chart{
+	padding:30px;
+}
+.piechart{
+	padding:30px;
+}
+.barchart{
+	padding:30px;
+}
+.mychart{
+	padding:30px;
+}
+.chartpie{
+	margin-bottom:50px;
+}
+@media(max-width:480px){
+	.overview-box .icon{
+		font-size:46px
+	}
+	.recent-report__chart{
+		padding:0px;
+	}
+	.piechart{
+		padding:0px;
+	}
+	.barchart{
+		padding:0px;
+	}
+	.mychart{
+		padding:0px;
+	}
+	.chartpie{
+		margin-bottom:0px;
+	}
+	
+}
+
+.profile-card-4 {
+    max-width: 300px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+	margin-top:40px;
+}
+
+.profile-card-4 img {
+    transition: all 0.25s linear;
+	width:100%;
+	height:300px;
+}
+
+.profile-card-4 .profile-content {
+    position: relative;
+    padding: 15px;
+    background-color: #FFF;
+}
+
+.profile-card-4 .profile-name {
+    font-weight: bold;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: -70px;
+    color: #FFF;
+    font-size: 17px;
+}
+
+.profile-card-4 .profile-name p {
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+	
+	
+}
+
+.profile-card-4 .profile-description {
+    color: #777;
+    font-size: 14px;
+    padding: 10px;
+	font-weight: bold;
+	
+}
+
+.profile-card-4 .profile-overview {
+    padding: 15px 0px;
+}
+
+.profile-card-4 .profile-overview p {
+    font-size: 10px;
+    font-weight: bold;
+    color: #777;
+	margin-bottom:5px;
+}
+
+.profile-card-4 .profile-overview h4 {
+    color: #273751;
+    font-weight: bold;
+	font-size:15px;
+	margin-top:0;
+}
+
+.profile-card-4 .profile-content::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    top: -10px;
+    left: 0px;
+    right: 0px;
+    background-color: #FFF;
+    z-index: 0;
+    transform: skewY(3deg);
+}
+
+.profile-card-4:hover img {
+    transform: rotate(3deg) scale(1.1, 1.1);
+    filter: brightness(110%);
+}
+
+
